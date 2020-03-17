@@ -20,6 +20,7 @@ const routes: Routes = [
 export class AppRoutingModule { }
 =======
 const routes: Routes = [
+<<<<<<< HEAD
   { path: '', redirectTo: 'login', pathMatch: 'full' },
   {
     path: 'login',
@@ -28,6 +29,13 @@ const routes: Routes = [
   {
     path: 'register',
     loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
+=======
+  { path: '', redirectTo: 'souvenirs', pathMatch: 'full' },
+  { path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},
+  {
+    path: 'souvenirs',
+    loadChildren: () => import('./souvenirs/souvenirs.module').then( m => m.SouvenirsPageModule)
+>>>>>>> Juliane2
   },
 
 ];
