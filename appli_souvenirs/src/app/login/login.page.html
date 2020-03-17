@@ -20,6 +20,11 @@
               <ion-input name="password" type="password" placeholder="Password" ngModel required></ion-input>
             </ion-item>
           </div>
+          <ion-row>
+            <div text-center>
+          <a>Mot de passe oublié ?</a>
+            </div>
+        </ion-row>
           <div padding>
             <ion-button size="large" type="submit" [disabled]="form.invalid" expand="block">Login</ion-button>
           </div>
@@ -30,8 +35,7 @@
 
   <ion-row>
     <div text-center>
-  If you don't have an account, please <a routerLink='/register'>
-    register</a> first!
+     <a routerLink='/register'>Créer un compte</a>
     </div>
 </ion-row>
 
