@@ -1,3 +1,3 @@
 # appli_souvenirs
-test manu
+test amine
 test branche
