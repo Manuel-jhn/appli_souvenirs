@@ -2,6 +2,7 @@
 # appli_souvenirs
 test manu
 <<<<<<< HEAD
+<<<<<<< HEAD
 test branche
 test tom
 =======
@@ -26,3 +27,7 @@ test branche
 test branche
 >>>>>>> master
 >>>>>>> manu
+=======
+test branche
+test zineb
+>>>>>>> testZineb

@@ -4,11 +4,18 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},  {
+<<<<<<< HEAD
     path: 'recherche-evenement',
     loadChildren: () => import('./recherche-evenement/recherche-evenement.module').then( m => m.RechercheEvenementPageModule)
   },
 
 <<<<<<< HEAD
+=======
+    path: 'pade-de-zineb',
+    loadChildren: () => import('./pade-de-zineb/pade-de-zineb.module').then( m => m.PadeDeZinebPageModule)
+  },
+
+>>>>>>> testZineb
 ];
 
 @NgModule({
@@ -18,6 +25,7 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+<<<<<<< HEAD
 =======
 const routes: Routes = [
 <<<<<<< HEAD
@@ -58,3 +66,5 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 >>>>>>> Maxime
+=======
+>>>>>>> testZineb
