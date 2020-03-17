@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 # appli_souvenirs
+<<<<<<< HEAD
 test manu
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31,3 +32,7 @@ test branche
 test branche
 test zineb
 >>>>>>> testZineb
+=======
+test amine
+test branche
+>>>>>>> Amine
