@@ -33,11 +33,21 @@ const routes: Routes = [
   { path: '', redirectTo: 'souvenirs', pathMatch: 'full' },
   { path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},
   {
+<<<<<<< HEAD
     path: 'souvenirs',
     loadChildren: () => import('./souvenirs/souvenirs.module').then( m => m.SouvenirsPageModule)
 >>>>>>> Juliane2
   },
 
+=======
+    path: 'fil-souvenir',
+    loadChildren: () => import('./fil-souvenir/fil-souvenir.module').then( m => m.FilSouvenirPageModule)
+  },
+  {
+    path: 'rewind',
+    loadChildren: () => import('./rewind/rewind.module').then( m => m.RewindPageModule)
+  },
+>>>>>>> manu
 ];
 
 @NgModule({
