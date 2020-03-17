@@ -8,6 +8,7 @@ const routes: Routes = [
     loadChildren: () => import('./recherche-evenement/recherche-evenement.module').then( m => m.RechercheEvenementPageModule)
   },
 
+<<<<<<< HEAD
 ];
 
 @NgModule({
@@ -17,3 +18,25 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+=======
+const routes: Routes = [
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'register',
+    loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
+  },
+
+];
+
+@NgModule({
+  imports: [
+    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
+  ],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+>>>>>>> Maxime
