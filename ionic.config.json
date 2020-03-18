@@ -1,0 +1,9 @@
+{
+  "name": "appli_souvenirs",
+  "integrations": {},
+<<<<<<< HEAD
+  "type": "angular"
+=======
+  "type": "ionic-angular"
+>>>>>>> testZineb
+}
